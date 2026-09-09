@@ -7,169 +7,87 @@
     <title>Projects — Anth Studios</title>
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Animated background -->
-    <div class="purple-glow glow-one"></div>
-    <div class="purple-glow glow-two"></div>
+<header class="navbar">
+    <a href="index.html" class="logo">ANTH STUDIOS</a>
 
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="editing.html">Editing</a>
+        <a href="development.html">Development</a>
+        <a href="socials.html">Socials</a>
+    </nav>
+</header>
 
-    <!-- Navigation -->
-    <header class="navbar">
+<main>
 
-        <a href="index.html" class="nav-logo">
-            ANTH<span>STUDIOS</span>
-        </a>
+    <section class="page-hero">
+        <div class="hero-glow"></div>
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="projects.html" class="active">Projects</a>
-            <a href="editing.html">Editing</a>
-            <a href="development.html">Development</a>
-        </nav>
+        <p class="hero-small">ANTH STUDIOS</p>
+        <h1>PROJECTS</h1>
+        <p>
+            Explore our latest work and creative projects.
+        </p>
+    </section>
 
-    </header>
+    <section class="projects-section">
 
+        <div class="project-showcase">
 
-    <!-- PROJECTS HERO -->
-    <main>
+            <div class="showcase-card">
+                <span>01 / WEB DEVELOPMENT</span>
+                <h2>Websites</h2>
+                <p>
+                    Modern and responsive websites built for communities,
+                    brands and creative projects.
+                </p>
 
-        <section class="projects-hero">
-
-            <p class="hero-small">OUR WORK</p>
-
-            <h1>Projects</h1>
-
-            <p>
-                A collection of digital projects, websites,
-                edits and creative work by Anth Studios.
-            </p>
-
-        </section>
-
-
-        <!-- PROJECT GRID -->
-        <section class="all-projects">
-
-            <!-- WEBSITE -->
-            <article class="project-showcase">
-
-                <div class="project-image website-preview">
-                    <span>&lt;/&gt;</span>
-                </div>
-
-                <div class="project-info">
-
-                    <span class="project-category">
-                        DEVELOPMENT
-                    </span>
-
-                    <h2>Websites</h2>
-
-                    <p>
-                        Modern and responsive websites created
-                        for brands, creators and other projects.
-                    </p>
-
-                    <a href="development.html">
-                        View Project →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- VIDEO EDITING -->
-            <article class="project-showcase">
-
-                <div class="project-image editing-preview">
-                    <span>▶</span>
-                </div>
-
-                <div class="project-info">
-
-                    <span class="project-category">
-                        VIDEO EDITING
-                    </span>
-
-                    <h2>Video Editing</h2>
-
-                    <p>
-                        Professional video editing for brands,
-                        creators, gaming and social media.
-                    </p>
-
-                    <a href="editing.html">
-                        View Project →
-                    </a>
-
-                </div>
-
-            </article>
-
-
-            <!-- ROBLOX -->
-            <article class="project-showcase">
-
-                <div class="project-image game-preview">
-                    <span>GAME</span>
-                </div>
-
-                <div class="project-info">
-
-                    <span class="project-category">
-                        GAME DEVELOPMENT
-                    </span>
-
-                    <h2>The Infinite Nightmare</h2>
-
-                    <p>
-                        A Roblox horror project developed as
-                        part of the Anth Studios universe.
-                    </p>
-
-                    <a href="https://www.roblox.com/games/72988192502762/The-Infinite-Nightmare"
-                       target="_blank"
-                       rel="noopener noreferrer">
-                        Play Game →
-                    </a>
-
-                </div>
-
-            </article>
-
-        </section>
-
-    </main>
-
-
-    <!-- FOOTER -->
-    <footer>
-
-        <div class="footer-content">
-
-            <div>
-                <span>© 2026 AnthStudios</span>
+                <a href="websites.html" class="main-button">
+                    View Websites
+                </a>
             </div>
 
-            <div>
-                <span>Site Created by</span>
-                <strong>x4nthProductions</strong>
+            <div class="showcase-card">
+                <span>02 / VIDEO</span>
+                <h2>Video Editing</h2>
+                <p>
+                    Professional edits for creators, YouTubers and social media.
+                </p>
+
+                <a href="editing.html" class="main-button">
+                    View Editing
+                </a>
+            </div>
+
+            <div class="showcase-card">
+                <span>03 / DEVELOPMENT</span>
+                <h2>Development</h2>
+                <p>
+                    Creative digital projects and custom development.
+                </p>
+
+                <a href="development.html" class="main-button">
+                    View Development
+                </a>
             </div>
 
         </div>
 
-    </footer>
+    </section>
 
+</main>
 
-    <script src="script.js"></script>
+<footer>
+    <p>© 2026 AnthStudios</p>
+    <p>Site Created by x4nthProductions</p>
+</footer>
 
+<script src="script.js"></script>
 </body>
 </html>
